@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    /*Firefoxへの対応*/
+    scrollbar-width: none;
+}
+
+.fullPageScroll {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+    scroll-snap-align: start;
+}
