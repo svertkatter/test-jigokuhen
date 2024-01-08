@@ -31,7 +31,8 @@ body {
     /* padding: 10%; */
     scroll-snap-align: start;
     display: grid;
-    grid-template-columns: 0.2fr;
+    grid-template-columns: auto;
+    gap: 10em;
     place-content: center;
     place-items: center;
     grid-auto-flow: column;
