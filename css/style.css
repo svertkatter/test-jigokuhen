@@ -22,7 +22,7 @@ body {
 }
 
 .title {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 .section {
@@ -37,6 +37,15 @@ body {
     place-items: center;
     grid-auto-flow: column;
     writing-mode: vertical-lr;
+    letter-spacing: .2em;
+}
+
+.txt-box p {
+    margin-left: 1em;
+}
+
+.txt-box p:first-child {
+    margin-left: 0;
 }
 
 /* .section1 {
