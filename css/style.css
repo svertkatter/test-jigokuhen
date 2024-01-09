@@ -14,7 +14,6 @@ body {
     font-style: normal;
     background: #E6E4D9;
     color: #4B4B4B;
-    overflow-x: hidden;
 }
 
 .fullPageScroll {
@@ -23,7 +22,6 @@ body {
     height: 100dvh;
     scroll-snap-type: y mandatory;
     overflow-y: auto;
-    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 
 }
@@ -75,6 +73,7 @@ body {
     padding: 1.5em 0.7em;
     text-align: start;
     writing-mode: vertical-rl;
+    width: 10%;
 }
 
 .txt-box button:last-child {
