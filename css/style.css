@@ -73,6 +73,7 @@ body {
     padding: 1.5em 0.7em;
     text-align: start;
     writing-mode: vertical-rl;
+    text-align: center;
     height: fit-content;
 }
 
