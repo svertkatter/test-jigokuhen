@@ -1,5 +1,5 @@
 let ws = new WebSocket('wss://our-socket-server.onrender.com:443');
-let selectValue = null;
+let selectValue = null; // 初期値を1に設定
 
 function sendAccelerationData(acceleration) {
     const dataToSend = {
@@ -28,7 +28,6 @@ function requestPermission() {
             .then(permissionState => {
                 if (permissionState === 'granted') {
                     setupDeviceMotion();
-                    selectValue = 1;
                 } else {
                     alert('加速度センサーへのアクセスが許可されていません。');
                 }
@@ -36,14 +35,15 @@ function requestPermission() {
             .catch(console.error);
     } else {
         setupDeviceMotion();
-        selectValue = 1;
     }
 }
 
 document.getElementById('permissionButton').addEventListener('click', function () {
+    selectValue = 1; // センサー許可が押されたときにselectを1に設定
     requestPermission();
 });
 
 document.getElementById('resetButton').addEventListener('click', function () {
-    selectValue = 0;
+    selectValue = 0; // リセットボタンが押されたときにselectを0に設定
+    requestPermission();
 });
