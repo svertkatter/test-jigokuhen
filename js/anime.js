@@ -6,7 +6,7 @@ function animateBackground() {
     bgDiv.style.top = '0';
     bgDiv.style.left = '0';
     bgDiv.style.width = '100%';
-    bgDiv.style.height = '100%';
+    bgDiv.style.height = '100dvh';
     bgDiv.style.backgroundColor = 'white';
     bgDiv.style.opacity = '0';
     bgDiv.style.zIndex = '9999';
