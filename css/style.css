@@ -80,19 +80,6 @@ body {
     text-orientation: upright;
 } */
 
-.txt-box button {
-    /* width: 20px; */
-    height: fit-content;
-    border: #4B4B4B 1px solid;
-    border-radius: 99px;
-    padding: 2em;
-}
-
-.txt-box button span {
-    writing-mode: vertical-rl;
-}
-
-
 
 /* .txt-box button:last-child {
     margin-left: 0;
