@@ -66,6 +66,12 @@ body {
     margin-left: 1em;
 }
 
+.txt-box button {
+    background: transparent;
+    border: #4B4B4B 1px solid;
+    border-radius: 99px;
+}
+
 /* .txt-box button {
     writing-mode: vertical-rl;
     margin-left: 1em;
