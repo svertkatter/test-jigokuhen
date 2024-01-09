@@ -2,10 +2,6 @@
     display: none;
 }
 
-body * {
-    box-sizing: border-box;
-}
-
 body {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -70,13 +66,18 @@ body {
     border-radius: 9999px;
     background: transparent;
     border: #4B4B4B 1px solid;
-    padding: 1.5em 0.7em;
-    text-align: start;
-    writing-mode: vertical-rl;
+    /* padding: 1.5em 0.7em; */
     text-align: center;
-    width: fit-content;
-    height: fit-content;
+    writing-mode: vertical-rl;
+    width: 2em;
+    height: 30em;
     cursor: pointer;
+}
+
+.txt-box .button-like span {
+    display: block;
+    writing-mode: vertical-rl;
+    padding-right: 0.2em;
 }
 
 .txt-box .button-like:last-child {

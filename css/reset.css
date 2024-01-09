@@ -140,3 +140,11 @@ a:not([class]) {
 :where(button, button[type], input[type="button"], input[type="submit"], input[type="reset"])[disabled] {
     cursor: not-allowed
 }
+
+button {
+    line-height: 1.1
+}
+
+button {
+    font: inherit
+}
