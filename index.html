@@ -17,6 +17,23 @@
                 h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/TextPlugin.min.js"></script>
+    <script type="module">
+        import { animateBackground } from './anime.js';
+
+        document.getElementById('permissionButton').addEventListener('click', function () {
+            animateBackground();
+            // 他の処理...
+        });
+
+        document.getElementById('resetButton').addEventListener('click', function () {
+            animateBackground();
+            // 他の処理...
+        });
+    </script>
+
 </head>
 
 <body>
@@ -137,6 +154,7 @@
         </section>
     </div>
 
+    <script src="js/anime.js"></script>
     <script src="js/index.js"></script>
     <script src="js/page.js"></script>
 </body>
