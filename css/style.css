@@ -24,6 +24,7 @@ body {
 .fullPageScroll {
     width: 100%;
     height: 100vh;
+    height: 100dvh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -37,6 +38,7 @@ body {
 .section {
     width: 100%;
     height: 100vh;
+    height: 100dvh;
     padding: 10%;
     scroll-snap-align: start;
     display: grid;
