@@ -1,6 +1,3 @@
-/*
-  Made by Elly Loel - https://ellyloel.com/
-*/
 * {
     margin: 0;
     padding: 0;
@@ -142,9 +139,5 @@ a:not([class]) {
 }
 
 button {
-    line-height: 1.1
-}
-
-button {
-    font: inherit
+    all: unset;
 }

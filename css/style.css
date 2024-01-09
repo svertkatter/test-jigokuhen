@@ -12,6 +12,8 @@ body {
     color: #4B4B4B;
 }
 
+
+
 .fullPageScroll {
     width: 100%;
     height: 100vh;
@@ -34,12 +36,15 @@ body {
     scroll-snap-align: start;
     display: grid;
     grid-template-columns: auto;
-    gap: 10em;
     place-content: center;
     place-items: center;
     grid-auto-flow: column;
     writing-mode: vertical-rl;
     letter-spacing: .2em;
+}
+
+.section1 {
+    gap: 10em;
 }
 
 .txt-box {
@@ -57,38 +62,43 @@ body {
     line-height: 3;
 }
 
-.section17 .txt-box p {
+.section18 .txt-box p {
     margin-left: 1em;
 }
 
-.txt-box .button-like {
+/* .txt-box button {
+    writing-mode: vertical-rl;
     margin-left: 1em;
     border-radius: 9999px;
     background: transparent;
     border: #4B4B4B 1px solid;
-    /* padding: 1.5em 0.7em; */
+    padding: 1.5em 10px;
     text-align: center;
-    writing-mode: vertical-rl;
-    width: 2em;
+    width: 20px;
     height: 30em;
     cursor: pointer;
+    text-orientation: upright;
+} */
+
+.txt-box button {
+    /* width: 20px; */
+    height: fit-content;
+    border: #4B4B4B 1px solid;
+    border-radius: 99px;
+    padding: 2em;
 }
 
-.txt-box .button-like span {
-    display: block;
+.txt-box button span {
     writing-mode: vertical-rl;
-    padding-right: 0.2em;
 }
 
-.txt-box .button-like:last-child {
+
+
+/* .txt-box button:last-child {
     margin-left: 0;
-}
+} */
 
-.section18 .txt-box {
-    width: fit-content;
-}
-
-.back {
+/* .back {
     position: fixed;
     top: -100%;
     background: #E6E4D9;
@@ -96,7 +106,7 @@ body {
     height: 100%;
     height: 100dvh;
     z-index: 99999;
-}
+} */
 
 /* .section1 {
     font-family: kozuka-gothic-pr6n, sans-serif;
