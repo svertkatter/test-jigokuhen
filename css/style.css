@@ -74,6 +74,7 @@ body {
     border: #4B4B4B 1px solid;
     padding: 1.5em 0.7em;
     text-align: start;
+    writing-mode: vertical-rl;
 }
 
 .txt-box button:last-child {
