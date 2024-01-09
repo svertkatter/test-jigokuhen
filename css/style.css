@@ -65,7 +65,7 @@ body {
     margin-left: 1em;
 }
 
-.txt-box a {
+.txt-box .button-like {
     margin-left: 1em;
     border-radius: 9999px;
     background: transparent;
@@ -79,7 +79,7 @@ body {
     cursor: pointer;
 }
 
-.txt-box a:last-child {
+.txt-box .button-like:last-child {
     margin-left: 0;
 }
 
