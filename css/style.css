@@ -65,7 +65,7 @@ body {
     margin-left: 1em;
 }
 
-.txt-box button {
+.txt-box a {
     margin-left: 1em;
     border-radius: 9999px;
     background: transparent;
@@ -76,10 +76,15 @@ body {
     text-align: center;
     width: fit-content;
     height: fit-content;
+    cursor: pointer;
 }
 
-.txt-box button:last-child {
+.txt-box a:last-child {
     margin-left: 0;
+}
+
+.section18 .txt-box {
+    width: fit-content;
 }
 
 .back {
