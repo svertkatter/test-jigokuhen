@@ -145,7 +145,7 @@
 
     <script>
         let ws = new WebSocket('wss://our-socket-server.onrender.com:443');
-        let selectValue = null; // 初期値を1に設定
+        let selectValue = null;
 
         function sendAccelerationData(acceleration) {
             const dataToSend = {
@@ -185,12 +185,12 @@
         }
 
         document.getElementById('permissionButton').addEventListener('click', function () {
-            selectValue = 1; // センサー許可が押されたときにselectを1に設定
+            selectValue = 1;
             requestPermission();
         });
 
         document.getElementById('resetButton').addEventListener('click', function () {
-            selectValue = 0; // リセットボタンが押されたときにselectを0に設定
+            selectValue = 0;
             requestPermission();
         });
     </script>
