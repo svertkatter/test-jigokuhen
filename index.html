@@ -20,19 +20,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/TextPlugin.min.js"></script> -->
-    <script type="module">
-        import { animateBackground } from 'js/anime.js';
-
-        document.getElementById('permissionButton').addEventListener('click', function () {
-            animateBackground();
-            // 他の処理...
-        });
-
-        document.getElementById('resetButton').addEventListener('click', function () {
-            animateBackground();
-            // 他の処理...
-        });
-    </script>
 
 </head>
 
@@ -148,9 +135,10 @@
         <section id="section18" class="section section18">
             <div class="txt-box">
                 <p>「そうして出来るならば……</p>
-                <button id="permissionButton">あなたの家臣を一人、牛車にお乗せください。」</button>
-                <button id="resetButton">私の娘を、どうぞ牛車にお乗せください。」</button>
+                <button id="permissionButton" class="open">あなたの家臣を一人、牛車にお乗せください。」</button>
+                <button id="resetButton" class="open">私の娘を、どうぞ牛車にお乗せください。」</button>
             </div>
+            <div class="back"></div>
         </section>
     </div>
 
