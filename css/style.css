@@ -82,7 +82,7 @@ body {
     margin-left: 0;
 }
 
-/* .back {
+.back {
     position: fixed;
     top: 0;
     left: 0;
@@ -92,7 +92,7 @@ body {
     height: 100dvh;
     z-index: 99999;
     opacity: 0;
-} */
+}
 
 /* .section1 {
     font-family: kozuka-gothic-pr6n, sans-serif;
