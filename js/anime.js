@@ -10,6 +10,7 @@ tl.fromTo(
     },
     {
         autoAlpha: 1,
+        top: 0,
         duration: 1,
         ease: Power2.easeInOut,
     }
